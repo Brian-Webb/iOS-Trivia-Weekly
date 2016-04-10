@@ -1,0 +1,41 @@
+/* Copyright
+     ========================================================================== */
+
+     .copyright {
+     	padding-top:1rem;
+
+     	@include breakpoint(321px) {
+     		padding-top:7rem;
+     	}
+
+     	@include breakpoint(400px) {
+     		padding-top:11.5rem;
+     	}
+
+     	@include breakpoint(961px) {
+     		padding-top:18rem;
+     	}
+
+     	p {
+     		text-align: justify;
+
+     		&::after {
+				content: "";
+				display: inline-block;
+				width: 100%;
+     		}
+
+	     	@include breakpoint(321px) {
+	     		padding-left:1rem;
+	     		padding-right:1rem;
+	     	}
+     	}
+
+     	a {
+			color: $medium-gray;
+			display: inline-block;
+			font-size: .7rem;
+			text-align: center;
+			width: auto;
+		}
+     }
