@@ -4202,6 +4202,19 @@ table.hover tr:nth-of-type(even):hover {
 /* base css sprite mixin */
 /* Signup Form
      ========================================================================== */
+/* set wrapper to be 100% of the screen */
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -2em; }
+
+/* set footer to always be at the bottom to begin with */
+.footer, .push {
+  height: 2em; }
+
+/* Signup Form
+     ========================================================================== */
 /* center logo and add needed spacing */
 .signup-form--logo {
   display: block;
@@ -4254,30 +4267,20 @@ table.hover tr:nth-of-type(even):hover {
 
 /* Copyright
      ========================================================================== */
-.copyright {
-  padding-top: 1rem; }
-  @media screen and (min-width: 20.0625em) {
-    .copyright {
-      padding-top: 7rem; } }
-  @media screen and (min-width: 25em) {
-    .copyright {
-      padding-top: 11.5rem; } }
-  @media screen and (min-width: 60.0625em) {
-    .copyright {
-      padding-top: 18rem; } }
-  .copyright p {
-    text-align: justify; }
-    .copyright p::after {
-      content: "";
-      display: inline-block;
-      width: 100%; }
-    @media screen and (min-width: 20.0625em) {
-      .copyright p {
-        padding-left: 1rem;
-        padding-right: 1rem; } }
-  .copyright a {
-    color: #cacaca;
+.copyright p {
+  text-align: justify; }
+  .copyright p::after {
+    content: "";
     display: inline-block;
-    font-size: .7rem;
-    text-align: center;
-    width: auto; }
+    width: 100%; }
+  @media screen and (min-width: 20.0625em) {
+    .copyright p {
+      padding-left: 1rem;
+      padding-right: 1rem; } }
+
+.copyright a {
+  color: #cacaca;
+  display: inline-block;
+  font-size: .7rem;
+  text-align: center;
+  width: auto; }

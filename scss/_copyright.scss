@@ -2,20 +2,6 @@
      ========================================================================== */
 
      .copyright {
-     	padding-top:1rem;
-
-     	@include breakpoint(321px) {
-     		padding-top:7rem;
-     	}
-
-     	@include breakpoint(400px) {
-     		padding-top:11.5rem;
-     	}
-
-     	@include breakpoint(961px) {
-     		padding-top:18rem;
-     	}
-
      	p {
      		text-align: justify;
 
