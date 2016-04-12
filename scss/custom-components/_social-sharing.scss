@@ -1,0 +1,50 @@
+/* Social Sharing
+     ========================================================================== */
+
+    .social-sharing--text {
+    	color: $primary-color;
+	    display: block;
+	    font-size: 1.1rem;
+    	font-weight: bold;
+    	margin: 2rem auto 1rem;
+    }
+
+    .social-sharing--icons {
+    	border-top: 1px solid #dbdbdb;
+    	list-style: none;
+    	margin: 0;
+    	padding-top: 1rem;
+    }
+
+    .social-sharing--icons li {
+    	display: inline-block;
+    }
+
+    .social-sharing--icons li a {
+		@include css-sprite;
+
+    	display: block;
+    	height: 50px;
+    	margin: 0 .5rem;
+    	width: 50px;
+    }
+
+    .social-sharing--google-plus {
+    	background-color: #e64522;
+    	background-position: 11px -601px;
+    }
+
+    .social-sharing--pinterest {
+    	background-color: #bd081c;
+    	background-position: 11px -535px;
+    }
+
+    .social-sharing--twitter {
+    	background-color: #00abe3;
+    	background-position: 11px -460px;
+    }
+
+    .social-sharing--facebook {
+    	background-color: #4060a5;
+    	background-position: 15px -396px;
+    }

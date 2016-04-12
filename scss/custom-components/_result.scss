@@ -1,0 +1,35 @@
+/* Results
+     ========================================================================== */
+
+    .result--icon {
+		@include css-sprite;
+
+    	display: block;
+    	height: 60px;
+    	width: 45px;
+    }
+
+    .correct-answer .result--icon {
+	    background-position: 0 -218px;
+    }
+
+    .wrong-answer .result--icon {
+	    background-position: 0 -294px;
+    }
+
+    .result--text {
+    	font-weight: bold;
+    	font-size:2rem;
+    }
+
+    .correct-answer .result--text {
+    	color: $correct-result-color;
+    }
+
+    .wrong-answer .result--text {
+    	color: $wrong-result-color;
+    }
+
+    .result--explanation {
+    	font-size: 1.3rem;
+    }

@@ -1,0 +1,15 @@
+/* Signup Form
+     ========================================================================== */
+
+     /* set wrapper to be 100% of the screen */
+     .wrapper {
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		margin: 0 auto -2em;
+	}
+
+	/* set footer to always be at the bottom to begin with */
+	.footer, .push {
+		height: 2em;
+	}

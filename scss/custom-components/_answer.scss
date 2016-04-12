@@ -1,0 +1,17 @@
+/* Answer
+     ========================================================================== */
+
+    .answer {
+    	display: block;
+    	margin-top: 4rem;
+
+    	&:hover {
+    		border: 1px solid $primary-color;
+    		border-bottom: 3px solid $primary-color;
+    	}
+    }
+
+    .answer--text {
+    	color: #696969;
+    	font-size: 1.3rem;
+    }

@@ -1,0 +1,51 @@
+/* Question
+     ========================================================================== */
+
+    .question--text {
+    	color: #2b2b2b;
+    	font-size: 1.5rem;
+    	font-weight: 600;
+
+    	&::before, &::after {
+    		@include css-sprite;
+
+    		content: '';
+    		display: inline-block;
+    		height: 20px;
+    		position: relative;
+    		top: -.6rem;
+    		width: 20px;
+    	}
+
+    	&::before {
+    		background-position: 0px -120px;
+    		margin-right: .7rem;
+    	}
+
+    	&::after {
+    		background-position: 0px -172px;
+    		margin-left: .7rem;
+    	}
+    }
+
+    .question--difficulty {
+    	color: #838383;
+    }
+
+    .question--difficulty--label {
+    	font-size: 1.4rem;
+    	font-weight: bold;
+    	text-transform: uppercase;
+    }
+
+    .question--difficulty--easy {
+    	color: #6ab534;
+    }
+
+    .question--difficulty--moderate {
+    	color: #b58c34;
+    }
+
+    .question--difficulty--hard {
+    	color: #b53734;
+    }
