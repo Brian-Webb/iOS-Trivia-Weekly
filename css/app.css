@@ -4178,6 +4178,15 @@ table.hover tr:nth-of-type(even):hover {
   -webkit-animation-delay: 700ms !important;
           animation-delay: 700ms !important; }
 
+/* Header Bar
+     ========================================================================== */
+body {
+  background-color: #efefef;
+  font-family: 'Open Sans', sans-serif; }
+
+body.signup-form {
+  background-color: #fff; }
+
 /* Presentational Classes
      ========================================================================== */
 /* applies consistent border-radius to any block element */
@@ -4200,6 +4209,17 @@ table.hover tr:nth-of-type(even):hover {
 /* CSS Sprites
      ========================================================================== */
 /* base css sprite mixin */
+/* Header Bar
+     ========================================================================== */
+.header-bar {
+  background-color: #f15c2e;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 8rem;
+  padding: .8rem 0;
+  text-align: center; }
+
 /* Signup Form
      ========================================================================== */
 /* set wrapper to be 100% of the screen */
@@ -4284,3 +4304,161 @@ table.hover tr:nth-of-type(even):hover {
   font-size: .7rem;
   text-align: center;
   width: auto; }
+
+/* Callouts
+     ========================================================================== */
+.callout {
+  border: 1px solid #dbdbdb;
+  border-bottom: 3px solid #dbdbdb;
+  text-align: center; }
+
+.overlap-section {
+  background-color: #f15c2e;
+  border-radius: 100px;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: -2.5rem;
+  padding: .7rem 1.2rem;
+  position: relative;
+  top: -2.5rem; }
+
+.result .overlap-section {
+  margin-bottom: -3.5rem;
+  top: -3.5rem; }
+
+.correct-answer .overlap-section {
+  background-color: #71c138; }
+
+.wrong-answer .overlap-section {
+  background-color: #ed2f2f; }
+
+/* Question
+     ========================================================================== */
+.question--text {
+  color: #2b2b2b;
+  font-size: 1.5rem;
+  font-weight: 600; }
+  .question--text::before, .question--text::after {
+    background-image: url("/img/css-sprites.png");
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    top: -.6rem;
+    width: 20px; }
+  .question--text::before {
+    background-position: 0px -120px;
+    margin-right: .7rem; }
+  .question--text::after {
+    background-position: 0px -172px;
+    margin-left: .7rem; }
+
+.question--difficulty {
+  color: #838383; }
+
+.question--difficulty--label {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.question--difficulty--easy {
+  color: #6ab534; }
+
+.question--difficulty--moderate {
+  color: #b58c34; }
+
+.question--difficulty--hard {
+  color: #b53734; }
+
+/* Answer
+     ========================================================================== */
+.answer {
+  display: block;
+  margin-top: 4rem; }
+  .answer:hover {
+    border: 1px solid #f15c2e;
+    border-bottom: 3px solid #f15c2e; }
+
+.answer--text {
+  color: #696969;
+  font-size: 1.3rem; }
+
+/* Results
+     ========================================================================== */
+.result--icon {
+  background-image: url("/img/css-sprites.png");
+  background-repeat: no-repeat;
+  display: block;
+  height: 60px;
+  width: 45px; }
+
+.correct-answer .result--icon {
+  background-position: 0 -218px; }
+
+.wrong-answer .result--icon {
+  background-position: 0 -294px; }
+
+.result--text {
+  font-weight: bold;
+  font-size: 2rem; }
+
+.correct-answer .result--text {
+  color: #71c138; }
+
+.wrong-answer .result--text {
+  color: #ed2f2f; }
+
+.result--explanation {
+  font-size: 1.3rem; }
+
+/* Social Sharing
+     ========================================================================== */
+.social-sharing--text {
+  color: #f15c2e;
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 2rem auto 1rem; }
+
+.social-sharing--icons {
+  border-top: 1px solid #dbdbdb;
+  list-style: none;
+  margin: 0;
+  padding-top: 1rem; }
+
+.social-sharing--icons li {
+  display: inline-block; }
+
+.social-sharing--icons li a {
+  background-image: url("/img/css-sprites.png");
+  background-repeat: no-repeat;
+  display: block;
+  height: 50px;
+  margin: 0 .5rem;
+  width: 50px; }
+
+.social-sharing--google-plus {
+  background-color: #e64522;
+  background-position: 11px -601px; }
+
+.social-sharing--pinterest {
+  background-color: #bd081c;
+  background-position: 11px -535px; }
+
+.social-sharing--twitter {
+  background-color: #00abe3;
+  background-position: 11px -460px; }
+
+.social-sharing--facebook {
+  background-color: #4060a5;
+  background-position: 15px -396px; }
+
+/* Transactional Message
+     ========================================================================== */
+.transactional-message--title {
+  color: #f15c2e; }
+
+.transactional-message-message {
+  font-size: 1.3rem; }

@@ -72,6 +72,8 @@ $global-radius: 0;
 $global-text-direction: ltr;
 $global-flexbox: false;
 $print-transparent-backgrounds: true;
+$correct-result-color: #71c138;
+$wrong-result-color: #ed2f2f;
 
 @include add-foundation-colors;
 
