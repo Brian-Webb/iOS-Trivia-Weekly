@@ -4430,14 +4430,13 @@ body.signup-form {
 
 .social-sharing--icons li {
   display: inline-block; }
-
-.social-sharing--icons li a {
-  background-image: url("/img/css-sprites.png");
-  background-repeat: no-repeat;
-  display: block;
-  height: 50px;
-  margin: 0 .5rem;
-  width: 50px; }
+  .social-sharing--icons li a {
+    background-image: url("/img/css-sprites.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 50px;
+    margin: 0 .5rem;
+    width: 50px; }
 
 .social-sharing--google-plus {
   background-color: #e64522;
